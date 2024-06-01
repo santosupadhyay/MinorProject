@@ -5,29 +5,29 @@ export default function Home() {
   return (
     // Compare and find best school part starts here
     <div>
-      <div class="bg-gradient-to-b from-blue-900 via-blue-700 to-blue-500 px-6 sm:py-20 py-10 font-[sans-serif]">
-        <div class="max-w-screen-xl mx-auto text-left text-white pl-8">
-          <h1 class="text-5xl max-sm:text-3xl font-extrabold leading-tight mb-4">
+      <div className="bg-gradient-to-b from-blue-900 via-blue-700 to-blue-500 px-6 sm:py-20 py-10 font-[sans-serif]">
+        <div className="max-w-screen-xl mx-auto text-left text-white pl-8">
+          <h1 className="text-5xl max-sm:text-3xl font-extrabold leading-tight mb-4">
             Let's <br /> Compare and Connect <br /> The Best For You
           </h1>
 
-          <div className="flex justify-start">
+          <div classNameName="flex justify-start">
             <button
               type="button"
-              class="bg-blue-600 hover:bg-blue-700 text-white text-lg font-semibold px-8 py-2 rounded-full transition duration-300 ease-in-out shadow-lg hover:shadow-xl"
+              className="bg-blue-600 hover:bg-blue-700 text-white text-lg font-semibold px-8 py-2 rounded-full transition duration-300 ease-in-out shadow-lg hover:shadow-xl"
             >
               Schools
             </button>
 
-            <div class="bg-white flex px-1 py-1 rounded-full border border-blue-500 overflow-hidden max-w-md font-[sans-serif]">
+            <div className="bg-white flex px-1 py-1 rounded-full border border-blue-500 overflow-hidden max-w-md font-[sans-serif]">
               <input
                 type="email"
                 placeholder="Search Schools..."
-                class="w-full outline-none bg-white pl-4 text-sm"
+                className="w-full outline-none bg-white pl-4 text-sm"
               />
               <button
                 type="button"
-                class="bg-blue-600 hover:bg-blue-700 transition-all text-white text-sm rounded-full px-5 py-2.5"
+                className="bg-blue-600 hover:bg-blue-700 transition-all text-white text-sm rounded-full px-5 py-2.5"
               >
                 Search
               </button>
@@ -39,22 +39,22 @@ export default function Home() {
       <Schools />
 
       {/* Testimonials starts here */}
-      <div class="my-6 font-[sans-serif] text-[#333]">
-        <div class="max-w-6xl mx-auto">
-          <div class="max-w-2xl mx-auto text-center">
-            <h2 class="text-2xl font-extrabold">What our happy client say</h2>
-            <p class="text-sm text-[#333] mt-4 leading-relaxed">
+      <div className="my-6 font-[sans-serif] text-[#333]">
+        <div className="max-w-6xl mx-auto">
+          <div className="max-w-2xl mx-auto text-center">
+            <h2 className="text-2xl font-extrabold">What our happy client say</h2>
+            <p className="text-sm text-[#333] mt-4 leading-relaxed">
               Veniam proident aute magna anim excepteur et ex consectetur velit
               ullamco veniam minim aute sit. Elit occaecat officia et laboris
               Lorem minim. Officia do aliqua adipisicing ullamco in.
             </p>
           </div>
-          <div class="grid md:grid-cols-3 md:gap-6 max-md:gap-10 max-md:justify-center mt-16">
-            <div class="max-w-[350px] h-auto shadow-[0_2px_22px_-4px_rgba(93,96,127,0.2)] lg:p-8 p-4 rounded-md bg-white relative">
-              <div class="bg-[#ff0000] w-16 h-16 rounded-full p-5 absolute -top-5 -right-5">
+          <div className="grid md:grid-cols-3 md:gap-6 max-md:gap-10 max-md:justify-center mt-16">
+            <div className="max-w-[350px] h-auto shadow-[0_2px_22px_-4px_rgba(93,96,127,0.2)] lg:p-8 p-4 rounded-md bg-white relative">
+              <div className="bg-[#ff0000] w-16 h-16 rounded-full p-5 absolute -top-5 -right-5">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="w-full fill-white"
+                  className="w-full fill-white"
                   viewBox="0 0 475.082 475.081"
                 >
                   <path
@@ -63,16 +63,16 @@ export default function Home() {
                   ></path>
                 </svg>
               </div>
-              <div class="flex items-center">
+              <div className="flex items-center">
                 <img
                   src="https://readymadeui.com/profile_2.webp"
-                  class="w-14 h-14 rounded-full shadow-xl border-2 border-white"
+                  className="w-14 h-14 rounded-full shadow-xl border-2 border-white"
                 />
-                <div class="ml-4">
-                  <h4 class="text-sm font-extrabold">John Doe</h4>
-                  <div class="flex space-x-1 mt-2">
+                <div className="ml-4">
+                  <h4 className="text-sm font-extrabold">John Doe</h4>
+                  <div className="flex space-x-1 mt-2">
                     <svg
-                      class="w-4 fill-[#ff0000]"
+                      className="w-4 fill-[#ff0000]"
                       viewBox="0 0 14 13"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -80,7 +80,7 @@ export default function Home() {
                       <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
                     </svg>
                     <svg
-                      class="w-4 fill-[#ff0000]"
+                      className="w-4 fill-[#ff0000]"
                       viewBox="0 0 14 13"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -88,7 +88,7 @@ export default function Home() {
                       <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
                     </svg>
                     <svg
-                      class="w-4 fill-[#ff0000]"
+                      className="w-4 fill-[#ff0000]"
                       viewBox="0 0 14 13"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -96,7 +96,7 @@ export default function Home() {
                       <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
                     </svg>
                     <svg
-                      class="w-4 fill-[#CED5D8]"
+                      className="w-4 fill-[#CED5D8]"
                       viewBox="0 0 14 13"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -104,7 +104,7 @@ export default function Home() {
                       <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
                     </svg>
                     <svg
-                      class="w-4 fill-[#CED5D8]"
+                      className="w-4 fill-[#CED5D8]"
                       viewBox="0 0 14 13"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -114,8 +114,8 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div class="mt-4">
-                <p class="text-sm leading-relaxed">
+              <div className="mt-4">
+                <p className="text-sm leading-relaxed">
                   The service was amazing. I never had to wait that long for my
                   food. The staff was friendly and attentive, and the delivery
                   was impressively prompt. Elit occaecat officia et laboris
@@ -123,11 +123,11 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div class="max-w-[350px] h-auto shadow-[0_2px_22px_-4px_rgba(93,96,127,0.2)] lg:p-8 p-4 rounded-md bg-white relative">
-              <div class="bg-[#ff0000] w-16 h-16 rounded-full p-5 absolute -top-5 -right-5">
+            <div className="max-w-[350px] h-auto shadow-[0_2px_22px_-4px_rgba(93,96,127,0.2)] lg:p-8 p-4 rounded-md bg-white relative">
+              <div className="bg-[#ff0000] w-16 h-16 rounded-full p-5 absolute -top-5 -right-5">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="w-full fill-white"
+                  className="w-full fill-white"
                   viewBox="0 0 475.082 475.081"
                 >
                   <path
@@ -136,16 +136,16 @@ export default function Home() {
                   ></path>
                 </svg>
               </div>
-              <div class="flex items-center">
+              <div className="flex items-center">
                 <img
                   src="https://readymadeui.com/profile_3.webp"
-                  class="w-14 h-14 rounded-full shadow-xl border-2 border-white"
+                  className="w-14 h-14 rounded-full shadow-xl border-2 border-white"
                 />
-                <div class="ml-4">
-                  <h4 class="text-sm font-extrabold">Mark Adair</h4>
-                  <div class="flex space-x-1 mt-2">
+                <div className="ml-4">
+                  <h4 className="text-sm font-extrabold">Mark Adair</h4>
+                  <div className="flex space-x-1 mt-2">
                     <svg
-                      class="w-4 fill-[#ff0000]"
+                      className="w-4 fill-[#ff0000]"
                       viewBox="0 0 14 13"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -153,7 +153,7 @@ export default function Home() {
                       <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
                     </svg>
                     <svg
-                      class="w-4 fill-[#ff0000]"
+                      className="w-4 fill-[#ff0000]"
                       viewBox="0 0 14 13"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -161,7 +161,7 @@ export default function Home() {
                       <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
                     </svg>
                     <svg
-                      class="w-4 fill-[#ff0000]"
+                      className="w-4 fill-[#ff0000]"
                       viewBox="0 0 14 13"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -169,7 +169,7 @@ export default function Home() {
                       <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
                     </svg>
                     <svg
-                      class="w-4 fill-[#ff0000]"
+                      className="w-4 fill-[#ff0000]"
                       viewBox="0 0 14 13"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -177,7 +177,7 @@ export default function Home() {
                       <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
                     </svg>
                     <svg
-                      class="w-4 fill-[#ff0000]"
+                      className="w-4 fill-[#ff0000]"
                       viewBox="0 0 14 13"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -187,8 +187,8 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div class="mt-4">
-                <p class="text-sm leading-relaxed">
+              <div className="mt-4">
+                <p className="text-sm leading-relaxed">
                   The service was amazing. I never had to wait that long for my
                   food. The staff was friendly and attentive, and the delivery
                   was impressively prompt. Elit occaecat officia et laboris
@@ -196,11 +196,11 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div class="max-w-[350px] h-auto shadow-[0_2px_22px_-4px_rgba(93,96,127,0.2)] lg:p-8 p-4 rounded-md bg-white relative">
-              <div class="bg-[#ff0000] w-16 h-16 rounded-full p-5 absolute -top-5 -right-5">
+            <div className="max-w-[350px] h-auto shadow-[0_2px_22px_-4px_rgba(93,96,127,0.2)] lg:p-8 p-4 rounded-md bg-white relative">
+              <div className="bg-[#ff0000] w-16 h-16 rounded-full p-5 absolute -top-5 -right-5">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="w-full fill-white"
+                  className="w-full fill-white"
                   viewBox="0 0 475.082 475.081"
                 >
                   <path
@@ -209,16 +209,16 @@ export default function Home() {
                   ></path>
                 </svg>
               </div>
-              <div class="flex items-center">
+              <div className="flex items-center">
                 <img
                   src="https://readymadeui.com/profile_4.webp"
-                  class="w-14 h-14 rounded-full shadow-xl border-2 border-white"
+                  className="w-14 h-14 rounded-full shadow-xl border-2 border-white"
                 />
-                <div class="ml-4">
-                  <h4 class="text-sm font-extrabold">Simon Konecki</h4>
-                  <div class="flex space-x-1 mt-2">
+                <div className="ml-4">
+                  <h4 className="text-sm font-extrabold">Simon Konecki</h4>
+                  <div className="flex space-x-1 mt-2">
                     <svg
-                      class="w-4 fill-[#ff0000]"
+                      className="w-4 fill-[#ff0000]"
                       viewBox="0 0 14 13"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -226,7 +226,7 @@ export default function Home() {
                       <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
                     </svg>
                     <svg
-                      class="w-4 fill-[#ff0000]"
+                      className="w-4 fill-[#ff0000]"
                       viewBox="0 0 14 13"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -234,7 +234,7 @@ export default function Home() {
                       <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
                     </svg>
                     <svg
-                      class="w-4 fill-[#ff0000]"
+                      className="w-4 fill-[#ff0000]"
                       viewBox="0 0 14 13"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -242,7 +242,7 @@ export default function Home() {
                       <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
                     </svg>
                     <svg
-                      class="w-4 fill-[#ff0000]"
+                      className="w-4 fill-[#ff0000]"
                       viewBox="0 0 14 13"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -250,7 +250,7 @@ export default function Home() {
                       <path d="M7 0L9.4687 3.60213L13.6574 4.83688L10.9944 8.29787L11.1145 12.6631L7 11.2L2.8855 12.6631L3.00556 8.29787L0.342604 4.83688L4.5313 3.60213L7 0Z" />
                     </svg>
                     <svg
-                      class="w-4 fill-[#CED5D8]"
+                      className="w-4 fill-[#CED5D8]"
                       viewBox="0 0 14 13"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -260,8 +260,8 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div class="mt-4">
-                <p class="text-sm leading-relaxed">
+              <div className="mt-4">
+                <p className="text-sm leading-relaxed">
                   The service was amazing. I never had to wait that long for my
                   food. The staff was friendly and attentive, and the delivery
                   was impressively prompt. Elit occaecat officia et laboris
