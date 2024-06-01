@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from '../../../public/images/logo.png'
+import LogoImage from '../../../public/images/logo.png'
 
 
 export default function Footer() {
@@ -10,9 +10,9 @@ export default function Footer() {
           <div className="lg:flex lg:items-center">
             <a href="">
               <img
-                src="https://readymadeui.com/readymadeui-light.svg"
+                src={LogoImage}
                 alt="logo"
-                className="w-52"
+                className="w-52 h-52 rounded-full bg-transparent"
               />
             </a>
           </div>
@@ -128,7 +128,7 @@ export default function Footer() {
         <p className="text-gray-300 text-sm mt-10">
           © 2023
           <a
-            href={Logo}
+            href=''
             target="_blank"
             className="hover:underline mx-1"
           >

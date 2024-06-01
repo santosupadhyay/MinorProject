@@ -75,12 +75,12 @@ export default function Navbar() {
                 </Link>
               </li>
               <li className="max-lg:border-b max-lg:py-3 px-3">
-                <a
+                <Link to='./chats'
                   href=""
                   className="text-[#333] hover:text-[#007bff] text-[15px] block font-semibold"
                 >
                   Chats
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

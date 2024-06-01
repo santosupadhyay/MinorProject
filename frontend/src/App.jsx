@@ -6,6 +6,9 @@ import Footer from './components/Footer/Footer'
 import Home from './components/Home/Home'
 import Login from './components/Login/Login'
 import Register from './components/Register/Register'
+import About from './components/About/About'
+import Compare from './components/Compare/Compare'
+import Chats from './components/Chats/Chats'
 
 function App() {
 
@@ -17,6 +20,9 @@ function App() {
         <Route path='/' element = { <Home />} />
         <Route path='login' element = { <Login />} />
         <Route path='login/register/' element = { <Register />} />
+        <Route path='/about' element = {<About />} />
+        <Route path='/compare' element = {<Compare />} />
+        <Route path='/chats' element = {<Chats />} />
       </Routes>
       <Footer />
     </Router>
